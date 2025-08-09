@@ -1,0 +1,44 @@
+<style>
+.center {
+    position: absolute;
+     left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+}
+
+
+body {
+background: linear-gradient(0deg, #b42344 0%, #620332 100%);
+background-attachment: fixed;  /* Gradient wasn't looping as expected */
+margin:0;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size:9vw;
+  margin:0;
+}
+
+h1.main {
+  background:linear-gradient(white 60%,#c3403f 40%);
+  background:-webkit-linear-gradient(white 60%,#c3403f 40%); /* Yeah this is a gradient */
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+filter: drop-shadow(1vh 1vh 0px #560127); /* Text-shadow property was not working as expected */
+}
+
+p.logo {
+    margin:0;
+    color:white;
+    font-size:4vw;  /* Maybe using this on all text stuff later */
+}
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<div class="center"><center>
+<h1 class="main">HISPANIC TEAM</h1>
+<p class="logo">W.I.P.</p>
+</center>
+</div>
